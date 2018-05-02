@@ -1,6 +1,5 @@
 <html>
-  <head>
-
+  <head dir="rtl">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -10,20 +9,81 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<style>
+  body {
+        text-align: right;
+    direction: rtl;
+  }
+</style>
   </head>
   <body>
-    <div class="panel panel-default">
-      <div class="panel-body">A Basic Panel</div>
+    <div id="text-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="row">
+        <div class="col-xs-offset-3 col-xs-6">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="carousel-content">
+                        <div>
+                            <p>בעמק יפה בין כרמים ושדות, עומד מגדל בין חמש קומות. ומי גר במגדל?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p>בקומה הראשונה תרנוגלת שמנה. כל היום בביתה על משכבה מהתפכת. היא כל-כך שמנה שקשה לה ללכת.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p>בקומה השניה גרה קוקיה, כל היום היא מהלכת, עושה ביקורים, כי בניה גרים בקינים אחרים</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p>בקומה השניה גרה קוקיה, כל היום היא מהלכת, עושה ביקורים, כי בניה גרים בקינים אחרים</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p>בקומה השלישית חתולה כושית, נקייה, מגונדרת. על צוואר יש לה סרט.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p>בקומה הרביעית גרה סנאית. בשמחה ונחת אגוזים מפצחת, ובקומה החמישית גר מר עכבר. אך לפני שבוע ארז חפציו ונסע. איש אינו יודע לאן ומדוע.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p>כתבו דיירי המגדל שלט, תקעו מסמר מעל לדלת, וקבעו שלט בקיר: דירה להשכיר</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- Controls --> <a class="left carousel-control" href="#text-carousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+ <a class="right carousel-control" href="#text-carousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
     <div class="panel panel-default">
       <img src="https://media.giphy.com/media/2wT7Tg5JR6cUCREVaV/giphy.gif" alt="placeholder 960" class="img-responsive" />
-    </div>
-  <!-------->
-    <div class="panel panel-default">
-      <div class="panel-body">Yet another text</div>
-    </div>
-    <div class="embed-responsive embed-responsive-16by9">
-      <img src="https://ephmedia.giphy.com/eb23b7d8-abd7-45ba-b6ba-9bfd9fc01436.gif" alt="placeholder 960" class="img-responsive" />
     </div>
   </body>
 </html>
