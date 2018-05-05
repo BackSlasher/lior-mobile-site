@@ -1,7 +1,2 @@
-https://www.w3schools.com/bootstrap/bootstrap_get_started.asp
-https://www.w3schools.com/bootstrap/bootstrap_panels.asp
-https://getbootstrap.com/docs/4.0/utilities/embed/
-https://stackoverflow.com/questions/19156510/responsive-website-zoomed-out-to-full-width-on-mobile
-
-## Video autoplay / loop
-https://stackoverflow.com/a/13047331
+To change things, go to `index.html` and add `img` tags.  
+They will come one after the other
